@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+:root {
+    --dark-violet: #21092f;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(270, 3%, 87%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.container {
+    width: 1440px;
+    height: 100vh;
+}
+
+.main {
+    margin-top: 30px;
+    margin: 30px auto;
+    width: 1400px;
+    height: 900px;
+    border: 1px solid #21092f;
+    border-radius: 5px;
+    display: block;
+}
+
+.bg-desktop {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+}
+
+.card-front {
+    width: 40%;
+    position: relative;
+    margin: 150px 0 0 180px;
+}
+
+.card-f {
+    display: flex;
+    position: absolute;
+}
+
+.card-back {
+    width: 40%;
+    position: relative;
+    margin: 300px 0 0 280px;
+}
+
+.card-b {
+    display: flex;
+    position: relative;
+} 
+
+.container-form {
+    margin-top: 0;
+}
+
+.form-details {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    height: 450px;
+    width: 40%;
+    margin-right: 0;
+    margin-top: -500px;
+    padding-right: 50px;
+}
+
+.form-details label {
+    padding: 5px;
+}
+
+.form-details input {
+    padding: 5px;
+}
+
+.confirm {
+    margin: 15px 0;
+    
+}
+
+/* font-family -- font-family: 'Space Grotesk', sans-serif; */
