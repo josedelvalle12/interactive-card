@@ -34,23 +34,33 @@
       
       <div class="container-form">
         <div class="form-details">
-          <label for="name">Cardholder Name</label>  
+          <label class="lab" for="name">Cardholder Name</label>  
             <!-- e.g. Jane Appleseed -->
-          <input type="text" id="name">
+          <input type="text" id="name" placeholder="e.g. Jane Appleseed">
 
-          <label for="name">Card Number</label>
+          <label class="lab" for="name">Card Number</label>
             <!-- e.g. 1234 5678 9123 0000 -->
-          <input type="text" id="number">
-
-          <label for="date">Exp. Date (MM/YY)</label>
-          <input type="text" placeholder="MM" id="date">
-          <input type="text" placeholder="YY" id="date">
-
-          <label for="cvc">CVC</label>
-          <input type="text" placeholder="123" id="cvc">
+          <input type="text" id="number" placeholder="e.g. 1234 5678 9123 0000">
+          
+          <div class="f-details-row">
+            <div class="date-container">
+              <label class="lab" for="date">Exp. Date (MM/YY)</label>
+              <div class="date-input-row">
+                <input type="text" placeholder="MM" id="date">
+                <input type="text" placeholder="YY" id="date">
+              </div>
+              
+            </div>
+            
+            <div class="cvc-container">
+              <label class="lab" for="cvc">CVC</label>
+              <input type="text" placeholder="123" id="cvc">
+            </div>
+            
+          </div>
+          
 
           <button class="confirm">Confirm</button>
-
         </div>
       </div>
         

@@ -78,17 +78,71 @@ body {
     padding-right: 50px;
 }
 
+.form-details div {
+    padding: 5px 0;
+}
+
+.f-details-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.date-container, .cvc-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.date-input-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+}
 .form-details label {
     padding: 5px;
 }
 
 .form-details input {
-    padding: 5px;
+    padding: 15px;
+    margin: 0 5px;
 }
 
 .confirm {
     margin: 15px 0;
-    
+}
+
+.form-details input {
+    border-radius: 10px;
+    height: 45px;
+}
+
+#date {
+    width: 70px;
+    display: flex;
+}
+
+#cvc {
+    width: 245px;
+    display: flex;
+}
+
+.lab {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--dark-violet);
+    margin-top: 15px;
+}
+
+.confirm {
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--dark-violet);
+    color: #fff;
+    font-size: 18px;
 }
 
 /* font-family -- font-family: 'Space Grotesk', sans-serif; */
